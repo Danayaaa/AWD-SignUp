@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="./Assets/Style/style.css">
+</head>
+<body style="background: url('./Assets/Pics/2nd\ promotional.png') no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;">
+
+<div class="login-box">
+    <div class="lb-header">
+        <a href="#" id="signup-box-link">Sign Up</a>
+      <a href="#" class="active" id="login-box-link">Login</a>
+    </div>
+
+    <form class="email-login">
+
+        <div class = "header">
+            <h2>Log In</h2>
+        </div>
+
+      <div class="u-form-group">
+        <input type="email" placeholder="Email"/>
+      </div>
+      <div class="u-form-group">
+        <input type="password" placeholder="Password"/>
+      </div>
+
+      <div class="u-form-group">
+        <a href="#" class="forgot-password">Forgot password?</a>
+      </div>
+
+      <div class="u-form-group">
+        <button>Log in</button>
+      </div>
+      
+    </form>
+
+    <form class="email-signup">
+
+        <div class = "header">
+            <h2>Sign Up</h2>
+        </div>
+
+        <div class="u-form-group">
+            <input type="text" placeholder="first name"/>
+        </div>
+              
+        <div class="u-form-group">
+            <input type="text" placeholder="last name"/>
+        </div>
+
+      <div class="u-form-group">
+        <input type="email" placeholder="Email"/>
+      </div>
+      <div class="u-form-group">
+        <input type="password" placeholder="Password"/>
+      </div>
+      <div class="u-form-group">
+        <input type="password" placeholder="Confirm Password"/>
+      </div>
+
+      <div class="u-form-group">
+        <a href="#" class="forgot-password">already registered?</a>
+      </div>
+
+      <div class="u-form-group">
+        <button>Sign Up</button>
+      </div>
+    </form>
+
+    <div id="myModal" class="modal" style="background: url('/Assets/Pics/2nd\ promotional.png'); background-size: 150%;">
+      <div class="modal-content">
+          <h1>Congrats!</h1>
+          <span class="close">&times;</span>
+          <p id="modalText"></p>
+      </div>
+  </div>
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
+  <script src="./Assets/JS/script.js"></script>
+  
+</body>
+</html>
